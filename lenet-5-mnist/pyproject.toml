@@ -1,5 +1,5 @@
 [project]
-name = "nlw-python-image-recognition"
+name = "lenet-5-mnist"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
