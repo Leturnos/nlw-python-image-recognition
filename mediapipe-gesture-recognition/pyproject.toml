@@ -1,0 +1,25 @@
+[project]
+name = "mediapipe-gesture-recognition"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipywidgets>=8.1.8",
+    "matplotlib>=3.10.8",
+    "mediapipe>=0.10.32",
+    "numpy>=2.4.3",
+    "opencv-python>=4.13.0.92",
+    "pillow>=12.1.1",
+    "torch>=2.10.0",
+    "transformers>=5.3.0",
+    "timm",
+    "requests",
+    "ipython",
+    "python-dotenv",
+    "google-generativeai",
+    "scikit-learn>=1.8.0",
+    "pandas>=3.0.1",
+    "joblib>=1.5.3",
+    "ipykernel==7.1.0"
+]
