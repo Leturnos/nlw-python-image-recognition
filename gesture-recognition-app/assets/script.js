@@ -39,8 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if (msg.gesture_image) {
             gestureImage.src = msg.gesture_image;
+            gestureImage.style.display = 'block';
         } else {
             gestureImage.src = '';
+            gestureImage.style.display = 'none';
         }
 
         if (msg.labels && msg.labels.length > 0) {

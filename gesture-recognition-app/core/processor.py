@@ -124,7 +124,7 @@ class GestureProcessor:
                 )
 
                 # Get gesture image if probability is high
-                if prediction_prob > 0.7:
+                if prediction_prob > 0.6:
                     gesture_img_b64 = self.gesture_images.get(gesture_name.lower())
 
                 # # Draw label on the frame
